@@ -1,0 +1,59 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  /* background-color: silver; */
+}
+
+.main{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 90vh;
+  width: 40%;
+  margin-left: 30%;
+  margin-top: 1%;
+  gap: 10px;
+  background-color: black;
+  color: #fff;
+}
+.main #heading{
+  text-decoration: underline;
+  margin-left: 10%;
+}
+.main label{
+  margin-top: 10px;
+  margin-left: 5%;
+  text-decoration: underline;
+  font-size: 21px;
+}
+.main input{
+  margin-top: 4%;
+  margin-left: 1%;
+  padding: 4px;
+  background-color: #fff;
+  color: #000;
+  border-radius: 5px;
+  width: 40%;
+  height: 40px;
+}
+.main .but{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.main .but #apply{
+  margin-left: 30%;
+  margin-top: 25%;
+  width: 16%;
+  height: 30px;
+}
+.main .but #custome{
+  width: 20%;
+  height: 30px;
+  margin-top: 25%;
+  padding: 5px;
+  margin-right: 10px;
+}
